@@ -1,0 +1,20 @@
+# Codex Twice native fallback colors and fonts.
+
+[desktop]
+appearanceDarkCodeThemeId = "rose-pine"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#ff5fa2"
+contrast = 60
+ink = "#f9eef3"
+opaqueWindows = true
+surface = "#171219"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+ui = 'ui-rounded, "SF Pro Rounded", "PingFang TC", "PingFang SC", system-ui, sans-serif'
+code = 'Menlo, "SF Mono", monospace'
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#9ee7bd"
+diffRemoved = "#ff8b9b"
+skill = "#fcc89b"

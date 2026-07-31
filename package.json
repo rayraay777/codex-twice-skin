@@ -1,0 +1,31 @@
+{
+  "name": "codex-twice-skin",
+  "version": "0.4.3",
+  "description": "Unofficial local TWICE-inspired appearance layer for Codex Desktop on macOS",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "codex",
+    "macos",
+    "theme",
+    "twice"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "apply": "node src/cli.mjs apply --restart",
+    "apply:running": "node src/cli.mjs apply",
+    "status": "node src/cli.mjs status",
+    "restore": "node src/cli.mjs restore",
+    "enable:auto": "node scripts/install-persistence.mjs",
+    "disable:auto": "node scripts/uninstall-persistence.mjs",
+    "test": "node --test",
+    "audit:release": "node scripts/audit-release.mjs",
+    "verify": "npm test && npm run audit:release"
+  }
+}
