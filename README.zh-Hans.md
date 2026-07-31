@@ -6,9 +6,9 @@
   <img src="assets/twice-logo.png" alt="TWICE 标志" width="180">
 </p>
 
-一款为 macOS Codex Desktop 打造、以 TWICE 为灵感的非官方皮肤。界面加入了 Candybong 粉色、梅紫色玻璃质感、圆润字体、可自动缩放的 TWICE Logo，以及自定义壁纸功能。
+一款为 macOS Codex Desktop 打造、以 TWICE 为灵感的非官方皮肤。界面加入了 Candybong 粉色、梅紫色玻璃质感、圆润字体、TWICE Logo作为默认背景，以及自定义壁纸功能。
 
-Codex Twice 只会改变你电脑上的界面外观，不会修改 AI、提示词或回复内容，也不会修改 `app.asar` 或破坏 Codex App 的代码签名。
+Codex Twice 只会改变电脑上的界面外观，不会修改 AI、提示词或回复内容，也不会修改 `app.asar` 或破坏 Codex App 的代码签名。
 
 > [!IMPORTANT]
 > Codex Twice 目前只支持安装在 `/Applications/ChatGPT.app` 的官方 macOS Codex Desktop，并且需要 Node.js 22 或更高版本。
@@ -21,11 +21,11 @@ Codex Twice 只会改变你电脑上的界面外观，不会修改 AI、提示�
 
 应用过程中，Codex 会自动退出并重新打开一次。进入新对话后，发送第一条指令前会看到欢迎标题；发送后，TWICE Logo 会变成居中的浅色背景。
 
-macOS 可能会要求你确认后才能打开下载的 `.command` 文件。继续之前，建议先核对 Release 校验值和源代码；不要关闭 Gatekeeper。
+macOS 可能会要求用户确认后才能打开下载的 `.command` 文件。继续之前，建议先核对 Release 校验值和源代码；不要关闭 Gatekeeper。
 
 ## 选择皮肤的保留方式
 
-| 你想进行的操作 | 打开这个文件 |
+| 想进行的操作 | 打开这个文件 |
 | --- | --- |
 | 只在当前 Codex 会话中使用皮肤 | `Apply Codex Twice.command` |
 | 每次启动 Codex 时自动应用 | `Enable Auto Restore.command` |
