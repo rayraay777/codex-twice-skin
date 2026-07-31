@@ -6,7 +6,7 @@
   <img src="assets/twice-logo.png" alt="TWICE logo" width="180">
 </p>
 
-An unofficial TWICE-inspired skin for Codex Desktop on macOS. It adds Candybong pink accents, plum glass surfaces, rounded typography, a responsive TWICE logo, and optional custom wallpapers.
+An unofficial TWICE-inspired skin for Codex Desktop on macOS. It adds Candybong pink accents, plum glass surfaces, rounded typography, TWICE logo as default background, and optional custom wallpapers.
 
 Codex Twice changes only the interface on your Mac. It does not change the AI, your prompts, or your responses, and it does not modify `app.asar` or invalidate the Codex app signature.
 
