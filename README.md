@@ -17,23 +17,9 @@ Codex Twice changes only the interface on your Mac. It does not change the AI, y
 
 These illustrative previews show the localized settings panel in both system appearances. The exact Codex sidebar may vary between app versions.
 
-### English
-
 | Light | Dark |
 | --- | --- |
 | ![Codex Twice light-mode interface preview](assets/previews/codex-twice-preview-light.jpg) | ![Codex Twice dark-mode interface preview](assets/previews/codex-twice-preview-dark.jpg) |
-
-### Traditional Chinese
-
-| Dark | Light |
-| --- | --- |
-| ![Codex Twice Traditional Chinese dark-mode preview](assets/previews/codex-twice-zh-hant-dark.png) | ![Codex Twice Traditional Chinese light-mode preview](assets/previews/codex-twice-zh-hant-light.png) |
-
-### Simplified Chinese
-
-| Dark | Light |
-| --- | --- |
-| ![Codex Twice Simplified Chinese dark-mode preview](assets/previews/codex-twice-zh-hans-dark.png) | ![Codex Twice Simplified Chinese light-mode preview](assets/previews/codex-twice-zh-hans-light.png) |
 
 ## Install in three steps
 
