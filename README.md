@@ -10,6 +10,10 @@ An unofficial TWICE-inspired skin for Codex Desktop on macOS. It adds Candybong 
 
 Codex Twice changes only the interface on your Mac. It does not change the AI, your prompts, or your responses, and it does not modify `app.asar` or invalidate the Codex app signature.
 
+<img width="1672" height="941" alt="exec-6436ca6d-06d9-4365-8a9b-47de5abec7fc" src="https://github.com/user-attachments/assets/56370110-6e32-4990-8f02-f00725ea6fd3" />
+<img width="1672" height="941" alt="exec-149387e7-f15f-42bd-8c3d-c96003a13c3c" src="https://github.com/user-attachments/assets/53e07ec7-6e51-4d9d-a624-aae7c0635d96" />
+
+
 > [!IMPORTANT]
 > Codex Twice currently works only with the official Codex Desktop app installed at `/Applications/ChatGPT.app`. Node.js 22 or newer is required.
 
