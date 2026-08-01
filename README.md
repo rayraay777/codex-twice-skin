@@ -17,6 +17,12 @@ Codex Twice changes only the interface on your Mac. It does not change the AI, y
 
 These illustrative previews show the localized settings panel in both system appearances. The exact Codex sidebar may vary between app versions.
 
+### English
+
+| Light | Dark |
+| --- | --- |
+| ![Codex Twice light-mode interface preview](assets/previews/codex-twice-preview-light.jpg) | ![Codex Twice dark-mode interface preview](assets/previews/codex-twice-preview-dark.jpg) |
+
 ### Traditional Chinese
 
 | Dark | Light |
@@ -31,7 +37,7 @@ These illustrative previews show the localized settings panel in both system app
 
 ## Install in three steps
 
-1. Download the latest ZIP from **Releases** and extract it.
+1. Download the latest ZIP from [**GitHub Releases**](https://github.com/rayraay777/codex-twice-skin/releases/latest) and extract it.
 2. Open the extracted `codex-twice-skin` folder.
 3. Double-click **`Apply Codex Twice.command`**.
 

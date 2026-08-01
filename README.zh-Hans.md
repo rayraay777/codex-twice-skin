@@ -23,7 +23,7 @@ Codex Twice 只会改变你电脑上的界面外观，不会修改 AI、提示�
 
 ## 三步完成安装
 
-1. 从 **Releases** 下载最新 ZIP 并解压。
+1. 从 [**GitHub Releases**](https://github.com/rayraay777/codex-twice-skin/releases/latest) 下载最新 ZIP 并解压。
 2. 打开解压后的 `codex-twice-skin` 文件夹。
 3. 双击 **`Apply Codex Twice.command`**。
 

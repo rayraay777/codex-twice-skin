@@ -13,6 +13,8 @@ const REQUIRED = [
   "LICENSE",
   "package.json",
   "assets/twice-logo.png",
+  "assets/previews/codex-twice-preview-dark.jpg",
+  "assets/previews/codex-twice-preview-light.jpg",
   "assets/previews/codex-twice-zh-hant-dark.png",
   "assets/previews/codex-twice-zh-hant-light.png",
   "assets/previews/codex-twice-zh-hans-dark.png",
@@ -57,7 +59,7 @@ const collect = async (directory) => {
     if ([".git", "node_modules"].includes(item.name)) continue;
     const path = join(directory, item.name);
     if (item.isDirectory()) await collect(path);
-    else if (!item.name.endsWith(".png")) publicFiles.push(path);
+    else if (!/\.(?:png|jpe?g)$/i.test(item.name)) publicFiles.push(path);
   }
 };
 await collect(ROOT);

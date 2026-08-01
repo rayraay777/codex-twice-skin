@@ -37,17 +37,32 @@ test("public readme defaults to English and links all three languages", async ()
   const simplifiedChinese = await readFile(new URL("../README.zh-Hans.md", import.meta.url), "utf8");
   assert.match(english, /README\.zh-Hant\.md/);
   assert.match(english, /README\.zh-Hans\.md/);
+  assert.match(english, /assets\/previews\/codex-twice-preview-light\.jpg/);
+  assert.match(english, /assets\/previews\/codex-twice-preview-dark\.jpg/);
   assert.match(english, /assets\/previews\/codex-twice-zh-hant-dark\.png/);
   assert.match(english, /assets\/previews\/codex-twice-zh-hans-light\.png/);
+  assert.match(english, /github\.com\/rayraay777\/codex-twice-skin\/releases\/latest/);
   assert.match(english, /Security and privacy/);
   assert.match(traditionalChinese, /README\.md/);
   assert.match(traditionalChinese, /README\.zh-Hans\.md/);
   assert.match(traditionalChinese, /assets\/previews\/codex-twice-zh-hant-light\.png/);
+  assert.match(traditionalChinese, /github\.com\/rayraay777\/codex-twice-skin\/releases\/latest/);
   assert.match(traditionalChinese, /安全與私隱/);
   assert.match(simplifiedChinese, /README\.md/);
   assert.match(simplifiedChinese, /README\.zh-Hant\.md/);
   assert.match(simplifiedChinese, /assets\/previews\/codex-twice-zh-hans-dark\.png/);
+  assert.match(simplifiedChinese, /github\.com\/rayraay777\/codex-twice-skin\/releases\/latest/);
   assert.match(simplifiedChinese, /安全与隐私/);
+});
+
+test("English interface previews are bounded JPEG files", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const names = ["codex-twice-preview-light.jpg", "codex-twice-preview-dark.jpg"];
+  for (const name of names) {
+    const preview = await readFile(new URL(`../assets/previews/${name}`, import.meta.url));
+    assert.ok(preview.length > 10000 && preview.length < 2000000, `${name} must remain below 2 MB`);
+    assert.deepEqual([...preview.subarray(0, 3)], [0xff, 0xd8, 0xff]);
+  }
 });
 
 test("localized preview images are bounded PNG files", async () => {

@@ -23,7 +23,7 @@ Codex Twice 只會改變 Mac 上的介面外觀，不會改動 AI、提示詞或
 
 ## 三步完成安裝
 
-1. 從 **Releases** 下載ZIP，然後解壓文件。
+1. 從 [**GitHub Releases**](https://github.com/rayraay777/codex-twice-skin/releases/latest) 下載最新 ZIP，然後解壓檔案。
 2. 開啟解壓後的 `codex-twice-skin` 資料夾。
 3. 雙擊 **`Apply Codex Twice.command`**。
 
