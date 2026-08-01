@@ -17,10 +17,6 @@ Codex Twice 只會改變 Mac 上的介面外觀，不會改動 AI、提示詞或
 
 以下示意圖展示繁體中文設定面板的深色及淺色外觀。Codex 側欄的實際內容可能因 App 版本而略有不同。
 
-| 深色 | 淺色 |
-| --- | --- |
-| ![Codex Twice 繁體中文深色介面示意圖](assets/previews/codex-twice-zh-hant-dark.png) | ![Codex Twice 繁體中文淺色介面示意圖](assets/previews/codex-twice-zh-hant-light.png) |
-
 ## 三步完成安裝
 
 1. 從 [**GitHub Releases**](https://github.com/rayraay777/codex-twice-skin/releases/latest) 下載最新 ZIP，然後解壓檔案。
