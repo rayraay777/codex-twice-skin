@@ -1,21 +1,33 @@
 # Codex Twice Skin
 
-**English** | [繁體中文](README.zh-Hant.md) | [简体中文](README.zh-Hans.md)
+**English** | [繁體中文（香港）](README.zh-Hant.md) | [简体中文](README.zh-Hans.md)
 
 <p align="center">
   <img src="assets/twice-logo.png" alt="TWICE logo" width="180">
 </p>
 
-An unofficial TWICE-inspired skin for Codex Desktop on macOS. It adds Candybong pink accents, plum glass surfaces, rounded typography, TWICE logo as default background, and optional custom wallpapers.
+An unofficial TWICE-inspired skin for Codex Desktop on macOS. It adds Candybong pink accents, plum glass surfaces, rounded typography, a responsive TWICE logo, and optional custom wallpapers.
 
 Codex Twice changes only the interface on your Mac. It does not change the AI, your prompts, or your responses, and it does not modify `app.asar` or invalidate the Codex app signature.
 
-<img width="1672" height="941" alt="exec-6436ca6d-06d9-4365-8a9b-47de5abec7fc" src="https://github.com/user-attachments/assets/56370110-6e32-4990-8f02-f00725ea6fd3" />
-<img width="1672" height="941" alt="exec-149387e7-f15f-42bd-8c3d-c96003a13c3c" src="https://github.com/user-attachments/assets/53e07ec7-6e51-4d9d-a624-aae7c0635d96" />
-
-
 > [!IMPORTANT]
 > Codex Twice currently works only with the official Codex Desktop app installed at `/Applications/ChatGPT.app`. Node.js 22 or newer is required.
+
+## Interface previews
+
+These illustrative previews show the localized settings panel in both system appearances. The exact Codex sidebar may vary between app versions.
+
+### Traditional Chinese
+
+| Dark | Light |
+| --- | --- |
+| ![Codex Twice Traditional Chinese dark-mode preview](assets/previews/codex-twice-zh-hant-dark.png) | ![Codex Twice Traditional Chinese light-mode preview](assets/previews/codex-twice-zh-hant-light.png) |
+
+### Simplified Chinese
+
+| Dark | Light |
+| --- | --- |
+| ![Codex Twice Simplified Chinese dark-mode preview](assets/previews/codex-twice-zh-hans-dark.png) | ![Codex Twice Simplified Chinese light-mode preview](assets/previews/codex-twice-zh-hans-light.png) |
 
 ## Install in three steps
 
@@ -44,6 +56,7 @@ Auto Restore is optional. Without it, quitting Codex and reopening it normally r
 - **Candybong-inspired colors** while keeping primary text, code, and diffs readable.
 - **Responsive TWICE branding** shown only on chat pages, not in Settings, Skills, or other system pages.
 - **Purposeful typography** with rounded English controls, PingFang for Chinese, and Menlo/SF Mono for code.
+- **Three panel languages** — choose English, Traditional Chinese, or Simplified Chinese; the panel font follows the selected language and the choice persists across restarts.
 - **Custom wallpapers** stored locally, with size, position, and brightness controls.
 - **A compact control panel** opened from `Codex Twice ✦` inside Codex.
 
@@ -53,12 +66,15 @@ The skin does not replace Codex controls with fake artwork and does not alter mo
 
 Open **`Codex Twice ✦`** inside Codex to:
 
+- choose English, Traditional Chinese, or Simplified Chinese for the settings interface;
 - turn readability enhancements, the TWICE logo, or the new-chat title on and off;
 - choose a PNG, JPEG, or WebP wallpaper;
 - adjust wallpaper size, position, and brightness;
 - clear the wallpaper or restore the native Codex appearance.
 
 Wallpaper files stay on your Mac. Images are limited to 8 MB and 24 megapixels, resized to a maximum of 2560 × 1440, and saved as compressed WebP in Codex local storage.
+
+The language setting translates the controls, buttons, hints, status messages, and image errors. `Codex Twice ✦` and `Live Once, Love Twice` remain unchanged. English uses the rounded system font, Traditional Chinese prefers PingFang TC, and Simplified Chinese prefers PingFang SC.
 
 ## Restore the original Codex appearance
 

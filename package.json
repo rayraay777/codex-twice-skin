@@ -1,6 +1,6 @@
 {
   "name": "codex-twice-skin",
-  "version": "0.4.3",
+  "version": "0.4.5",
   "description": "Unofficial local TWICE-inspired appearance layer for Codex Desktop on macOS",
   "private": true,
   "type": "module",

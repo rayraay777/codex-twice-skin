@@ -37,13 +37,32 @@ test("public readme defaults to English and links all three languages", async ()
   const simplifiedChinese = await readFile(new URL("../README.zh-Hans.md", import.meta.url), "utf8");
   assert.match(english, /README\.zh-Hant\.md/);
   assert.match(english, /README\.zh-Hans\.md/);
+  assert.match(english, /assets\/previews\/codex-twice-zh-hant-dark\.png/);
+  assert.match(english, /assets\/previews\/codex-twice-zh-hans-light\.png/);
   assert.match(english, /Security and privacy/);
   assert.match(traditionalChinese, /README\.md/);
   assert.match(traditionalChinese, /README\.zh-Hans\.md/);
+  assert.match(traditionalChinese, /assets\/previews\/codex-twice-zh-hant-light\.png/);
   assert.match(traditionalChinese, /安全與私隱/);
   assert.match(simplifiedChinese, /README\.md/);
   assert.match(simplifiedChinese, /README\.zh-Hant\.md/);
+  assert.match(simplifiedChinese, /assets\/previews\/codex-twice-zh-hans-dark\.png/);
   assert.match(simplifiedChinese, /安全与隐私/);
+});
+
+test("localized preview images are bounded PNG files", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const names = [
+    "codex-twice-zh-hant-dark.png",
+    "codex-twice-zh-hant-light.png",
+    "codex-twice-zh-hans-dark.png",
+    "codex-twice-zh-hans-light.png",
+  ];
+  for (const name of names) {
+    const preview = await readFile(new URL(`../assets/previews/${name}`, import.meta.url));
+    assert.ok(preview.length > 10000 && preview.length < 2000000, `${name} must remain below 2 MB`);
+    assert.deepEqual([...preview.subarray(0, 8)], [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+  }
 });
 
 test("bundled transparent PNG appears only as the post-prompt centered background", async () => {

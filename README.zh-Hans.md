@@ -1,18 +1,25 @@
 # Codex Twice Skin
 
-[English](README.md) | [繁體中文](README.zh-Hant.md) | **简体中文**
+[English](README.md) | [繁體中文（香港）](README.zh-Hant.md) | **简体中文**
 
 <p align="center">
   <img src="assets/twice-logo.png" alt="TWICE 标志" width="180">
 </p>
 
-一款为 macOS Codex Desktop 打造、以 TWICE 为灵感的非官方皮肤。界面加入了 Candybong 粉色、梅紫色玻璃质感、圆润字体、TWICE Logo作为默认背景，以及自定义壁纸功能。
+一款为 macOS Codex Desktop 打造、以 TWICE 为灵感的非官方皮肤。界面加入了 Candybong 粉色、梅紫色玻璃质感、圆润字体、可自动缩放的 TWICE Logo，以及自定义壁纸功能。
 
-Codex Twice 只会改变电脑上的界面外观，不会修改 AI、提示词或回复内容，也不会修改 `app.asar` 或破坏 Codex App 的代码签名。
-
+Codex Twice 只会改变你电脑上的界面外观，不会修改 AI、提示词或回复内容，也不会修改 `app.asar` 或破坏 Codex App 的代码签名。
 
 > [!IMPORTANT]
 > Codex Twice 目前只支持安装在 `/Applications/ChatGPT.app` 的官方 macOS Codex Desktop，并且需要 Node.js 22 或更高版本。
+
+## 界面示意图
+
+以下示意图展示简体中文设置面板的深色和浅色外观。Codex 侧边栏的实际内容可能会因 App 版本略有不同。
+
+| 深色 | 浅色 |
+| --- | --- |
+| ![Codex Twice 简体中文深色界面示意图](assets/previews/codex-twice-zh-hans-dark.png) | ![Codex Twice 简体中文浅色界面示意图](assets/previews/codex-twice-zh-hans-light.png) |
 
 ## 三步完成安装
 
@@ -22,11 +29,11 @@ Codex Twice 只会改变电脑上的界面外观，不会修改 AI、提示词�
 
 应用过程中，Codex 会自动退出并重新打开一次。进入新对话后，发送第一条指令前会看到欢迎标题；发送后，TWICE Logo 会变成居中的浅色背景。
 
-macOS 可能会要求用户确认后才能打开下载的 `.command` 文件。继续之前，建议先核对 Release 校验值和源代码；不要关闭 Gatekeeper。
+macOS 可能会要求你确认后才能打开下载的 `.command` 文件。继续之前，建议先核对 Release 校验值和源代码；不要关闭 Gatekeeper。
 
 ## 选择皮肤的保留方式
 
-| 想进行的操作 | 打开这个文件 |
+| 你想进行的操作 | 打开这个文件 |
 | --- | --- |
 | 只在当前 Codex 会话中使用皮肤 | `Apply Codex Twice.command` |
 | 每次启动 Codex 时自动应用 | `Enable Auto Restore.command` |
@@ -41,6 +48,7 @@ Auto Restore 是可选功能。如果没有启用，完全退出 Codex 后再正
 - **Candybong 风格配色**，同时保证主要文字、代码和 diff 清晰易读。
 - **响应式 TWICE 元素**，只在对话页面显示，不会出现在 Settings、Skills 等系统页面。
 - **合理的字体搭配**，英文控件使用圆润字体、中文使用 PingFang、代码使用 Menlo／SF Mono。
+- **三种面板语言**，可选择英文、繁体中文或简体中文；面板字体会跟随语言切换，选择也会在重启后保留。
 - **自定义壁纸**，图片只保存在本地，并可调整大小、位置和亮度。
 - **简洁的控制面板**，在 Codex 中点击 `Codex Twice ✦` 即可打开。
 
@@ -50,12 +58,15 @@ Auto Restore 是可选功能。如果没有启用，完全退出 Codex 后再正
 
 在 Codex 中打开 **`Codex Twice ✦`**，你可以：
 
+- 选择英文、繁体中文或简体中文作为设置界面语言；
 - 开关阅读增强、TWICE Logo 和新对话标题；
 - 选择 PNG、JPEG 或 WebP 壁纸；
 - 实时调整壁纸大小、位置和亮度；
 - 清除壁纸，或者恢复 Codex 原生外观。
 
 壁纸会始终保留在你的 Mac 上。文件上限为 8 MB、2400 万像素，最大会缩放至 2560 × 1440，并以压缩 WebP 格式保存在 Codex 本地存储中。
+
+语言设置会翻译控件、按钮、提示、状态和图片错误信息；`Codex Twice ✦` 与 `Live Once, Love Twice` 保持原文。英文使用圆润系统字体，繁体中文优先使用 PingFang TC，简体中文则优先使用 PingFang SC。
 
 ## 恢复 Codex 原生外观
 

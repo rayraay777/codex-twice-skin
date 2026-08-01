@@ -1,6 +1,6 @@
 # Codex Twice Skin
 
-[English](README.md) | **繁體中文** | [简体中文](README.zh-Hans.md)
+[English](README.md) | **繁體中文（香港）** | [简体中文](README.zh-Hans.md)
 
 <p align="center">
   <img src="assets/twice-logo.png" alt="TWICE 標誌" width="180">
@@ -10,9 +10,16 @@
 
 Codex Twice 只會改變 Mac 上的介面外觀，不會改動 AI、提示詞或回覆內容，亦不會修改 `app.asar` 或破壞 Codex App 的程式碼簽署。
 
-
 > [!IMPORTANT]
 > Codex Twice 目前只支援安裝於 `/Applications/ChatGPT.app` 的官方 macOS Codex Desktop，並需要 Node.js 22 或以上版本。
+
+## 介面示意圖
+
+以下示意圖展示繁體中文設定面板的深色及淺色外觀。Codex 側欄的實際內容可能因 App 版本而略有不同。
+
+| 深色 | 淺色 |
+| --- | --- |
+| ![Codex Twice 繁體中文深色介面示意圖](assets/previews/codex-twice-zh-hant-dark.png) | ![Codex Twice 繁體中文淺色介面示意圖](assets/previews/codex-twice-zh-hant-light.png) |
 
 ## 三步完成安裝
 
@@ -41,6 +48,7 @@ Auto Restore 是選用功能。如未啟用，完全退出 Codex 後再正常開
 - **Candybong 風格配色**，同時保持主要文字、程式碼及 diff 清晰易讀。
 - **TWICE 元素標題**，只會在 Chat 頁面出現，不會在 Settings、Skills 等系統頁面顯示。
 - **字體分工**，英文控制項使用圓潤字體、中文使用 PingFang、程式碼使用 Menlo／SF Mono。
+- **三種面板語言**，可選英文、繁體中文或簡體中文；面板字體會跟隨語言切換，選擇亦會在重啟後保留。
 - **自訂背景**，圖片只會儲存於本機，並可調校大小、位置及亮度。
 - **控制面板**，在 Codex 內點擊 `Codex Twice ✦` 即可開啟。
 
@@ -50,12 +58,15 @@ Auto Restore 是選用功能。如未啟用，完全退出 Codex 後再正常開
 
 在 Codex 內開啟 **`Codex Twice ✦`**，用戶可以：
 
+- 選擇英文、繁體中文或簡體中文作為設定介面語言；
 - 開關閱讀增強、TWICE Logo 及新 Chat 標題；
 - 選擇 PNG、JPEG 或 WebP 背景圖片；
 - 即時調校背景大小、位置及亮度；
 - 清除背景，或者回復 Codex 原本外觀。
 
 背景圖片全程保留於用戶的 Mac。檔案上限為 8 MB、2,400 萬像素，最大會縮放至 2560 × 1440，並以壓縮 WebP 儲存於 Codex local storage。
+
+語言設定會翻譯控制項、按鈕、提示、狀態及圖片錯誤訊息；`Codex Twice ✦` 與 `Live Once, Love Twice` 保持原文。英文使用圓潤系統字體，繁體中文優先使用 PingFang TC，簡體中文則優先使用 PingFang SC。
 
 ## 回復原本 Codex 外觀
 

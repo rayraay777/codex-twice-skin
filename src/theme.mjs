@@ -935,8 +935,8 @@ export function buildInstallExpression({ logoDataUrl = null } = {}) {
       return true;
     };
     restore.addEventListener("click", remove);
-    window.__codexTwiceSkin = { id: ${JSON.stringify(SKIN_ID)}, version: "0.4.4", remove, close };
-    return { installed: true, id: ${JSON.stringify(SKIN_ID)}, version: "0.4.4" };
+    window.__codexTwiceSkin = { id: ${JSON.stringify(SKIN_ID)}, version: "0.4.5", remove, close };
+    return { installed: true, id: ${JSON.stringify(SKIN_ID)}, version: "0.4.5" };
   })()`;
 }
 
