@@ -13,14 +13,6 @@ Codex Twice 只会改变你电脑上的界面外观，不会修改 AI、提示�
 > [!IMPORTANT]
 > Codex Twice 目前只支持安装在 `/Applications/ChatGPT.app` 的官方 macOS Codex Desktop，并且需要 Node.js 22 或更高版本。
 
-## 界面示意图
-
-以下示意图展示简体中文设置面板的深色和浅色外观。Codex 侧边栏的实际内容可能会因 App 版本略有不同。
-
-| 深色 | 浅色 |
-| --- | --- |
-| ![Codex Twice 简体中文深色界面示意图](assets/previews/codex-twice-zh-hans-dark.png) | ![Codex Twice 简体中文浅色界面示意图](assets/previews/codex-twice-zh-hans-light.png) |
-
 ## 三步完成安装
 
 1. 从 [**GitHub Releases**](https://github.com/rayraay777/codex-twice-skin/releases/latest) 下载最新 ZIP 并解压。
