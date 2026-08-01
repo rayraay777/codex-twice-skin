@@ -1,6 +1,6 @@
 # Codex Twice Skin
 
-**English** | [繁體中文（香港）](README.zh-Hant.md) | [简体中文](README.zh-Hans.md)
+**English** | [繁體中文](README.zh-Hant.md) | [简体中文](README.zh-Hans.md)
 
 <p align="center">
   <img src="assets/twice-logo.png" alt="TWICE logo" width="180">
