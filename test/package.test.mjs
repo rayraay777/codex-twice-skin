@@ -15,6 +15,13 @@ test("theme identifiers and original brand copy are present", () => {
   assert.match(buildInstallExpression(), /ONE IN A MILLION/);
   assert.match(buildInstallExpression(), /Ready To Be/);
   assert.match(buildInstallExpression(), /Live Once, Love Twice/);
+  assert.match(buildInstallExpression(), /codex-twice-language-v1/);
+  assert.match(buildInstallExpression(), /\["zh-Hant", "繁體中文"\]/);
+  assert.match(buildInstallExpression(), /\["zh-Hans", "简体中文"\]/);
+  assert.match(buildInstallExpression(), /\["en", "English"\]/);
+  assert.match(buildInstallExpression(), /twiceLanguage = language/);
+  assert.match(THEME_CSS, /data-twice-language="zh-Hant".*PingFang TC/s);
+  assert.match(THEME_CSS, /data-twice-language="zh-Hans".*PingFang SC/s);
   assert.match(buildInstallExpression(), /prefers-color-scheme: light/);
   assert.match(buildInstallExpression(), /systemPalette\.addEventListener\("change"/);
   assert.doesNotMatch(buildInstallExpression(), /option\("White mode"/);
