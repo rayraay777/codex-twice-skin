@@ -11,7 +11,8 @@
 Codex Twice 只會改變 Mac 上的介面外觀，不會改動 AI、提示詞或回覆內容，亦不會修改 `app.asar` 或破壞 Codex App 的程式碼簽署。
 
 <img width="1568" height="1003" alt="codex-twice-zh-hant-light" src="https://github.com/user-attachments/assets/74d5b83c-8201-4f39-9635-d529c6100a51" />
-<img width="1568" height="1003" alt="codex-twice-zh-hant-dark" src="https://github.com/user-attachments/assets/adfd0183-c4ef-4c11-8a0c-bf0aa9ec7775" />
+<img width="1568" height="1003" alt="codex-twice-zh-hant-dark" src="https://github.com/user-attachments/assets/909ac079-e5fb-4c47-b5d7-20e5bdee789f" />
+
 
 > [!IMPORTANT]
 > Codex Twice 目前只支援安裝於 `/Applications/ChatGPT.app` 的官方 macOS Codex Desktop，並需要 Node.js 22 或以上版本。
