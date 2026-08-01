@@ -1,6 +1,6 @@
 # Codex Twice Skin
 
-[English](README.md) | [繁體中文（香港）](README.zh-Hant.md) | **简体中文**
+[English](README.md) | [繁體中文](README.zh-Hant.md) | **简体中文**
 
 <p align="center">
   <img src="assets/twice-logo.png" alt="TWICE 标志" width="180">
@@ -9,6 +9,9 @@
 一款为 macOS Codex Desktop 打造、以 TWICE 为灵感的非官方皮肤。界面加入了 Candybong 粉色、梅紫色玻璃质感、圆润字体、TWICE Logo作为默认背景，以及自定义壁纸功能。
 
 Codex Twice 只会改变电脑上的界面外观，不会修改 AI、提示词或回复内容，也不会修改 `app.asar` 或破坏 Codex App 的代码签名。
+
+<img width="1568" height="1003" alt="codex-twice-zh-hans-light" src="https://github.com/user-attachments/assets/438be165-04bd-4076-b6e0-b846ff359d3a" />
+<img width="1568" height="1003" alt="codex-twice-zh-hans-dark" src="https://github.com/user-attachments/assets/3e8cdccb-7a57-419f-aaa7-c92a782b6bf8" />
 
 > [!IMPORTANT]
 > Codex Twice 目前只支持安装在 `/Applications/ChatGPT.app` 的官方 macOS Codex Desktop，并且需要 Node.js 22 或更高版本。
